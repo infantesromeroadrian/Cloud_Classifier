@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "developllms"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Infantes Romero <infantesromeroadrian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+seaborn = "^0.13.2"
+jupyter = "^1.0.0"
+jupyterlab = "^4.2.2"
+torch = "^2.3.1"
+torchmetrics = "^1.4.0.post0"
+torchvision = "^0.18.1"
+streamlit = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
